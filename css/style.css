@@ -114,7 +114,7 @@ img {
 }
 
 .s-hero {
-  background-image: url("/public/img/hero-bg.png");
+  background-image: url("../img/hero-bg.png");
 }
 
 .s-hero__icon {
@@ -154,7 +154,7 @@ img {
 .s-subscription {
   padding: 28px 0 62px;
   height: 100vh;
-  background-image: url("/public/img/subscription-bg.png");
+  background-image: url("../img/subscription-bg.png");
   border: 8px solid #23C3B2;
 }
 .s-subscription.u-bg-img {
