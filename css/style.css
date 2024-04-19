@@ -114,6 +114,7 @@ img {
 }
 
 .s-hero {
+  position: relative;
   background-image: url("../img/hero-bg.png");
 }
 
@@ -267,6 +268,7 @@ img {
 }
 
 .o-header__menu {
+  display: inline-block;
   cursor: pointer;
 }
 .o-header__menu svg {
