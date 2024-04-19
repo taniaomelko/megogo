@@ -1,0 +1,15 @@
+.s-text-img {
+  padding-top: 80px;
+  overflow: hidden;
+  justify-content: flex-start !important;
+}
+
+.s-text-img__image {
+  margin-top: 29px;
+}
+.s-text-img__image-wrap {
+  .s-text-img__image {
+    margin-top: 9px;
+  }
+}
+

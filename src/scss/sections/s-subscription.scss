@@ -1,0 +1,81 @@
+.s-subscription {
+  padding: 28px 0 62px;
+  height: 100vh;
+  background-image: url("../img/subscription-bg.png");
+  border: 8px solid $color-accent;
+  &.u-bg-img {
+    background-position: top center;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: rgba($color-primary, 0.5);
+  }
+  .container {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .c-intro__description {
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+  }
+}
+
+.s-subscription__label-text {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
+.s-subscription__label-name {
+  margin-top: 5px;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.s-subscription__price {
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.s-subscription__btn {
+  margin-top: 16px;
+}
+
+.s-subscription__trial {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.83px;
+  text-transform: capitalize;
+  opacity: 0.6;
+}
+
+.s-subscription__more {
+  margin-top: 20px;
+  a {
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    color: $color-light-grey;
+    transition: color 0.3s;
+    &:hover {
+      color: $color-accent;
+    }
+  }
+}

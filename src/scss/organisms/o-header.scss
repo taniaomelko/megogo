@@ -1,0 +1,20 @@
+.o-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 15px;
+}
+
+.o-header__menu {
+  display: inline-block;
+  cursor: pointer;
+  svg {
+    color: $color-white;
+    transform: opacity 0.3s;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

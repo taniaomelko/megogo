@@ -1,0 +1,21 @@
+.c-button {
+  display: inline-block;
+}
+
+.c-button--primary {
+  min-width: 200px;
+  padding: 18px;
+  border: 2px solid $color-accent;
+  background-color: $color-accent;
+  border-radius: 5px;
+  font-size: 13px;
+  line-height: 1.2;
+  letter-spacing: 1.3px;
+  text-align: center;
+  color: $color-white;
+  text-transform: uppercase;
+  transition: border-color 0.3s;
+  &:hover {
+    border-color: $color-white;
+  }
+}

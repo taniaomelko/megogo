@@ -1,0 +1,33 @@
+.c-intro {
+  max-width: 400px;
+}
+
+.c-intro__title {
+  margin-bottom: 10px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.c-intro__title--big {
+  font-size: 36px;
+}
+
+.c-intro__title--medium {
+  font-size: 30px;
+}
+
+.c-intro__title--small {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.c-intro__description {
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 300;
+  color: rgba($color-white, 0.8);
+}
+
+.c-intro__description--small {
+  max-width: 85%;
+}

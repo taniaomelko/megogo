@@ -1,0 +1,19 @@
+{
+  "name": "megogo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://taniaomelko.github.io/megogo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch src/scss/_style.scss:public/css/style.css",
+    "deploy": "gh-pages -d public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "sass": "^1.75.0"
+  }
+}
